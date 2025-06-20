@@ -1,0 +1,65 @@
+style.css
+body {
+ font-family: ‘Segoe UI’, sans-serif;
+ background-color: #f4f4f4;
+ display: flex;
+ justify-content: center;
+ padding-top: 50px;
+}
+.container {
+ Background: white;
+ Padding: 30px;
+ Border-radius: 10px;
+ Box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+ Width: 100%;
+ Max-width: 400px;
+}
+H1 {
+ Text-align: center;
+ Margin-bottom: 20px;
+}
+.input-section {
+ Display: flex;
+ Gap: 10px;
+ Margin-bottom: 20px;
+}
+Input[type=”text”] {
+ Flex: 1;
+ Padding: 10px;
+ Border: 1px solid #ddd;
+ Border-radius: 5px;
+}
+Button {
+ Padding: 10px 15px;
+ Border: none;
+ Background-color: #4CAF50;
+ Color: white;
+ Border-radius: 5px;
+ Cursor: pointer;
+}
+Button:hover {
+ Background-color: #45a049;
+}
+Ul {
+ List-style-type: none;
+ Padding: 0;
+}
+Li {
+ Background: #f9f9f9;
+ Margin-bottom: 10px;
+ Padding: 10px 15px;
+ Border-radius: 5px;
+ Display: flex;
+ Justify-content: space-between;
+}
+li.completed {
+ text-decoration: line-through;
+ color: gray;
+}
+Li button {
+ Background: none;
+ Border: none;
+ Color: red;
+ Font-weight: bold;
+ Cursor: pointer;
+}
